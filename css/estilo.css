@@ -1,1 +1,57 @@
-estilo.css
+
+@import url('https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700');
+
+body{
+	font-family: 'Allerta', sans-serif;
+}
+
+.titulo{
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title-a{
+	font-size: 24px;
+
+}
+
+.title-b{
+	font-size: 50px;
+}
+
+.guitarras h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+
+.portada{
+	background-image: url('../images/background.png');
+	color: #fff;
+}
+
+.guitarras{
+	color: #1f313c;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+}
+
+.logotipo{
+	display: inline-block;	
+}
+
+.menu li{
+	display: inline-block;
+}
+
+
+
+
+
+
+    
+
+
+

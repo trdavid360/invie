@@ -24,7 +24,7 @@
 		<div class="contenedor">
 			<h1 class="titulo">Guitarras Invisibles</h1> <!-- titulo -->
 			<h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3> <!-- resumen -->
-			<button>Conoce más</button><!-- boton -->
+			<button class="button" >Conoce más</button><!-- boton -->
 		</div>
 	</section>
 
@@ -66,25 +66,26 @@
 			</div>
 
 				<form class="formulario">
-					<label for="nombre">Nombre</label>
-					<input id="nombre" type="text" required placeholder="Digite el nombre" name="nombre">
+				<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input id="nombre" type="text" required placeholder="Digite el nombre" name="nombre">
 
-					<label for="email">email</label>
-					<input id="email" type="email" required placeholder="Digite el email" name="email">	
+						<label for="email">email</label>
+						<input id="email" type="email" required placeholder="Digite el email" name="email">	
 
-					<div class="sexo">
-						<label for="mujer">
-							<input id="mujer" type="radio" name="sexo" value="mujer">Mujer
-						</label>
+						<div class="sexo">
+							<label for="mujer">
+								<input id="mujer" checked type="radio" name="sexo" value="mujer">Mujer
+							</label>
 
-						<label for="hombre">
-							<input id="hombre" type="radio" name="sexo" value="hombre">Hombre
-						</label>
-					</div>
+							<label for="hombre">
+								<input id="hombre" type="radio" name="sexo" value="hombre">Hombre
+							</label>
+						</div>
 
-					<div class="intereses">
+						<div class="intereses">
 							<label for="cotizacion">
-								<input type="checkbox" name="intereses" id="contizacion" value="cotizacion">Cotización
+								<input type="checkbox" checked name="intereses" id="contizacion" value="cotizacion">Cotización
 							</label>
 							<label for="reclamos">
 								<input type="checkbox" name="intereses" id="reclamos" value="reclamos">Reclamos
@@ -96,11 +97,13 @@
 								<input type="checkbox" name="intereses" id="otros" value="otros">Otros
 							</label>
 					</div>
-					<div>
+					</div>
+					
+					<div class="col2">
 						<label for="comentarios"></label>Comentarios
 						<textarea name="comentarios" id="comentarios" cols="30" rows="7">
 						</textarea>
-						<input type="submit" value="enviar" name="">
+						<input type="submit" class="button" value="enviar" name="">
 					</div>
 
 				</form>
